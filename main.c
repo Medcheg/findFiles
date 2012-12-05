@@ -19,6 +19,7 @@ int TotalFiles;
 int LinesCount = 0;
 int FileCounter = 0;
 FILE *h_log;
+//
 
 //
 typedef struct tag_file
