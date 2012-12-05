@@ -1,0 +1,15 @@
+*.conf
+*.config
+*.files
+*.creator
+*.user
+*.~*
+*.o
+*.d
+*.swp
+*.includes
+
+findFiles
+log.txt
+
+
