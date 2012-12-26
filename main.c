@@ -275,11 +275,9 @@ int main (int argc, char **argv)
 
     h_log = fopen("log.txt", "w+");
 
-    ////char *path       = "/home/pm/workspace/.app/source/linux/findFiles";
-    //char *path        = "/home/pm/workspace/buildsrv/tz_assessment";
     char *path        = ".";
     char *search_mask = ".*";
-    char *ignore_mask = ".user .creator .files .includes .doc .ko .config .o";
+    char *ignore_mask = ".user .creator .files .includes .doc .ko .config .o .d";
     char *ignore_path = ".git libs bin";
     char *checkPhrase = "Copyright";
 
